@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "kaorigel";
+  src: url("/fonts/kaorigel.medium.ttf");
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +35,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+p, h1, h2, h3, h4 {
+  font-family: "kaorigel";
+  font-weight: bold;
 }
